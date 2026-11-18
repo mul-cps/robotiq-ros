@@ -6,7 +6,7 @@ name: Bloom Debian Package
 on:
   push:
     branches:
-      main
+      bloom
     paths:
       - "grippers/**"
       - "robotiq_tsf/**"
@@ -37,3 +37,4 @@ jobs:
           ROS_DISTRO: ${{ matrix.ros }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
