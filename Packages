@@ -1,0 +1,272 @@
+Package: ros-jazzy-robotiq-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-controllers
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 3483
+Depends: ros-jazzy-robotiq-controllers (= 1.3.0-109-ge14c29b-2026.11.19.08.50)
+Filename: ./ros-jazzy-robotiq-controllers-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.50_amd64.ddeb
+Size: 3211672
+MD5sum: bf6c620bcaf8cf431b98738c4451020c
+SHA1: 9a4b56b8c061c362a06be4fb6664dfc5bc9e784a
+SHA256: c0e1908493ad3826c43e1ebe6905e366e65ca3d0e3260571a952bf50f471f272
+SHA512: 20914971b1f20cf6854b40a14bf9da10c469f04f8505d60c779d6bd895301588af3bfac21b7eb16e57f413b71900867b7f28aabaea686bcbc80b820a4cadaea3
+Description: debug symbols for ros-jazzy-robotiq-controllers
+Build-Ids: 6be316c2c8abce105e056cbb721cd4d469a3f727
+
+Package: ros-jazzy-robotiq-controllers
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.50
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 742
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-controller-interface, ros-jazzy-hardware-interface, ros-jazzy-parallel-gripper-controller, ros-jazzy-rclcpp-action, ros-jazzy-realtime-tools, ros-jazzy-robotiq-driver, ros-jazzy-robotiq-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs, ros-jazzy-tinyxml2-vendor
+Filename: ./ros-jazzy-robotiq-controllers_1.3.0-109-ge14c29b-2026.11.19.08.50_amd64.deb
+Size: 193952
+MD5sum: c29996469ca0a15529d0eee5802a7c85
+SHA1: c75679f6d3b766582557b8131a8154be1a7d8ea4
+SHA256: 9c0c300dae7e75850d1f751ca6625f781777f301550f8416f788bc079996b29a
+SHA512: dbef390711985794def96a7aa9e40a2c4e06dce5b9f80b4210936ba814ba4a5cebcec9a8b709cf5f67a69095abbbd8f8a7dcdbe647906ba710e39f276a79cfab
+Homepage: https://index.ros.org/p/robotiq_controllers/#jazzy
+Description: Controllers for the Robotiq gripper.
+
+Package: ros-jazzy-robotiq-description
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.58
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 20946
+Depends: ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-state-publisher-gui, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-parallel-gripper-controller, ros-jazzy-robot-state-publisher, ros-jazzy-robotiq-controllers, ros-jazzy-ros2-control, ros-jazzy-rviz2, ros-jazzy-urdf, ros-jazzy-xacro
+Filename: ./ros-jazzy-robotiq-description_1.3.0-109-ge14c29b-2026.11.19.08.58_amd64.deb
+Size: 4933772
+MD5sum: 063479403553151b640bada5f87c6152
+SHA1: e728e92116c92483deac7ae76885868da0c468d3
+SHA256: feb71c5c34970da3f1b31253b6e81456985c958d59fac1d1fe63ba584bdb0d7e
+SHA512: 4039b057b377cc6019c25f3677488cfe0e26577f73c7ccbd88ac67f5e02b4a710161cf651155c3e362bf7c2c3d42c0d68ac18203cfd42c6b760840750b7c6ddf
+Homepage: https://index.ros.org/p/robotiq_description/#jazzy
+Description: URDF and xacro description package for the Robotiq gripper.
+
+Package: ros-jazzy-robotiq-driver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-driver
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 954
+Depends: ros-jazzy-robotiq-driver (= 1.3.0-109-ge14c29b-2026.11.19.08.45)
+Filename: ./ros-jazzy-robotiq-driver-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.45_amd64.ddeb
+Size: 866692
+MD5sum: fbd06b753ff67252f9b8fad09f49ac21
+SHA1: 2b5973bfc89267a1b3267d6c30263ee964b19db0
+SHA256: 1517d66cb68b5bd45e06e266124142a19d028ad007934fc099f69ff4c3c5de8b
+SHA512: ae3f6d106f6c3c9e59d03ea0a34bf729c072c15a4cc85609ca950eb5c9927838ab458f0bd0fcb31245e13213f05c1c38f909eead05a626ad93388fce07201611
+Description: debug symbols for ros-jazzy-robotiq-driver
+Build-Ids: f3cb219ff3d881ef2420a20d6bb576dc4945855d
+
+Package: ros-jazzy-robotiq-driver
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.45
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 466
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-hardware-interface, ros-jazzy-lifecycle-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-robotiq-grippers-sdk-vendor
+Filename: ./ros-jazzy-robotiq-driver_1.3.0-109-ge14c29b-2026.11.19.08.45_amd64.deb
+Size: 131542
+MD5sum: 26de59cb4e676b4e0692db95b3d39a38
+SHA1: 0ccc2038d2fdb6e5a85cef0a637fcc76755eb24b
+SHA256: 5576aa11af6c7958e95e1ec055c3c87511a21d8a6153094d73aedf7851624bb2
+SHA512: 24efcdb9d45427201dab6eac04d8eabf3b608dcb66a9b77b39eebeb91e637b728272637eb4d34c59f1721449bb913c7737a5e16fac38bb9514743f30c7cbd576
+Homepage: https://index.ros.org/p/robotiq_driver/#jazzy
+Description: ROS2 driver package for the Robotiq gripper.
+
+Package: ros-jazzy-robotiq-grippers-sdk-vendor
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.34
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 620
+Filename: ./ros-jazzy-robotiq-grippers-sdk-vendor_1.3.0-109-ge14c29b-2026.11.19.08.34_amd64.deb
+Size: 119018
+MD5sum: 138a4331fa3cae3e5f538ab4369ac980
+SHA1: 1333b54554c226a02dc9d9b32b0c6527fd38afd0
+SHA256: 012f00e5318722352d53d2c83dd12278a77fa197c41c78415b254d0ad4eb98ab
+SHA512: 5a6c970b24505c2ee877e28dfe9fc99a40811cbd859aa4b8e66a4f18bdf053545c5cb812c0d6a097fd482e330635ed7f77b2dff53f09d84c513183dc7beca377
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/grippers
+Description: Builds the Robotiq grippers C++ SDK (github.com/robotiq/robotiq-sdk, grippers/) at a pinned version, for the ROS packages that use it.
+
+Package: ros-jazzy-robotiq-hardware-tests-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-hardware-tests
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 189
+Depends: ros-jazzy-robotiq-hardware-tests (= 1.3.0-109-ge14c29b-2026.11.19.08.51)
+Filename: ./ros-jazzy-robotiq-hardware-tests-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.51_amd64.ddeb
+Size: 169792
+MD5sum: 56e9b9924bafb059b65baf8196132a52
+SHA1: 67172117a7e70badaafb351f95b2cd27c56d5b0d
+SHA256: a3c815cf34c2421470bfd9dc9359b0cb37481f1b85c2c4dd271b7aced580e365
+SHA512: e8f9f0f28b58072b2cffee9fccc0c5fe827f9cc281b4efe5c894b1e0406678424c4e49542ff9ffa40a167eb4c8f021d4255bbf31203d8d9489101aca4d3f0c35
+Description: debug symbols for ros-jazzy-robotiq-hardware-tests
+Build-Ids: 4632e0316c65bf511e89904f9cbe2a94de1b4153
+
+Package: ros-jazzy-robotiq-hardware-tests
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.51
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 79
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-robotiq-driver
+Filename: ./ros-jazzy-robotiq-hardware-tests_1.3.0-109-ge14c29b-2026.11.19.08.51_amd64.deb
+Size: 16414
+MD5sum: 60f113e9835a6ced586c909ba688ec70
+SHA1: 8199b14839123517b43e1aec1d857780d624d78d
+SHA256: fc245c4cecc1dd1bc211ab8dbae0a3b44fb4a56fb4a2c1ef755f4ec2411c95b9
+SHA512: e7378a48ab47f6ec189fe65daaee10e0b6dcc001fefef8067dba285da98e433772b8e45e4ec7827d4a3edc7faf7205b495631b90a1aedd4b0b2462dc4a709f38
+Homepage: https://index.ros.org/p/robotiq_hardware_tests/#jazzy
+Description: ROS2 driver for the Robotiq gripper.
+
+Package: ros-jazzy-robotiq-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.36
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-msgs
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 275
+Depends: ros-jazzy-robotiq-msgs (= 1.3.0-109-ge14c29b-2026.11.19.08.36)
+Filename: ./ros-jazzy-robotiq-msgs-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.36_amd64.ddeb
+Size: 185320
+MD5sum: 184b0b23806e36b425111001c51bf78e
+SHA1: aeea7134f08b8f824849438951930ddad19f623a
+SHA256: 991d87d74385a2f587bfc3bd52e6311d05cfe7465e186762ed29ee45440020a7
+SHA512: 9ccbed5f688681a1bf1dd9574fa8324dd6ac569849ebcf2bdc0411c1ef8bc19062e20f8ebf7e4eb4f1deaaaf57d945defb6e72449f81af64bbc98b167e2c4cfb
+Description: debug symbols for ros-jazzy-robotiq-msgs
+Build-Ids: 0e3b36d87bb2afcf4d8bfb9222a0c7b3f00ea325 252001942584a829526cfb7846a28f2356564804 4cd3bcdf1d6f6d26fa5defc863249d47bc6d911c 67e1cbcec9a05e0190d0725e871c6f76cce0009f 8cd5c794b1cd665b6ac3c1d41c20628f4242b0c5 a2120dca15df0645d1c13890bd6a573984768941 c9cac937b243caa9fc5bfe4753c945ec4c49000a d0e45434dd99bb7cc44da870d10a03b59edf7ddd d8891467423dcd5222c040f7702a303446d4307e e9755dba0ed45c3325365cd8fb00d0c521a709e8 f10190ef77d6aa70cd566990f1cbde45f576a1f1
+
+Package: ros-jazzy-robotiq-msgs
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.36
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 496
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-robotiq-msgs_1.3.0-109-ge14c29b-2026.11.19.08.36_amd64.deb
+Size: 46732
+MD5sum: f024d0794e7b8882ff378d37bc0869e5
+SHA1: e1459e0ae9d2f2b9be8e4f626684bc1bfbaec597
+SHA256: 3ca93ac3161ac312456b93e9e7c3849917850e857f38f71690ba1c5210efddb8
+SHA512: e3738ae625753154ca0ee261b9b2bc193f138e0a21336d954b194c9f564a9b12ef4f1e199cf5496e3d2a66c8ed23047f8b61d6bf1870eab63c2058abbb037d00
+Homepage: https://index.ros.org/p/robotiq_msgs/#jazzy
+Description: Messages for the Robotiq gripper driver and controllers.
+
+Package: ros-jazzy-robotiq-tactile-sdk-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.42
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-tactile-sdk-vendor
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 143
+Depends: ros-jazzy-robotiq-tactile-sdk-vendor (= 1.3.0-109-ge14c29b-2026.11.19.08.42)
+Filename: ./ros-jazzy-robotiq-tactile-sdk-vendor-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.42_amd64.ddeb
+Size: 125906
+MD5sum: 77c2c0d4f43d60daa2978a0fb1c1b328
+SHA1: f5510561d7c0c04e3237f686d7b100965db11628
+SHA256: b9b0fa9a09c0d69fb0e286537b0b12e7643b6d707e4193e4966c6e3611ec36fd
+SHA512: f30a525332638e40bdabe93d079b399463eea9e1893f388a824009a1fa2a4fd139f2a987323e63c7372c9f1457b4aea5d06d561a6fec0856695cf0aafba1002d
+Description: debug symbols for ros-jazzy-robotiq-tactile-sdk-vendor
+Build-Ids: a1a69dc6ab5ddb6bc3f16530b41fd764ee5ef002
+
+Package: ros-jazzy-robotiq-tactile-sdk-vendor
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.42
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libserialport0, libstdc++6 (>= 13.1), libserialport-dev
+Filename: ./ros-jazzy-robotiq-tactile-sdk-vendor_1.3.0-109-ge14c29b-2026.11.19.08.42_amd64.deb
+Size: 26736
+MD5sum: 2774ba17a01009dcd345a87c4cb41519
+SHA1: a7eb50378bf2e57ec65bfd88df3e0cb706e0f42c
+SHA256: 10e37b9081fe606c57d15a7ab4b50a98d0298c86f813e73eb251fb41d2b3033a
+SHA512: de3a337f92ad87bb6864e60cd65ab4e64956e58068402095b7d0e903dd1188d8858b96df3b50cd29ad787badc38ad8732cbf437c5158b803f14964079fa8617a
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/tsf
+Description: Builds the Robotiq tactile sensors C++ SDK (github.com/robotiq/robotiq-sdk, tsf/) at a pinned release, for the ROS packages that use it.
+
+Package: ros-jazzy-robotiq-test-support
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.43
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 54
+Depends: ros-jazzy-ament-cmake-gtest, ros-jazzy-rclcpp, ros-jazzy-rcpputils
+Filename: ./ros-jazzy-robotiq-test-support_1.3.0-109-ge14c29b-2026.11.19.08.43_amd64.deb
+Size: 8578
+MD5sum: c66da73769c70491d43886d2751dbc11
+SHA1: 7f467e797a9da638e38feb394f03e5b82674ee09
+SHA256: 499fba37294a7f23a5ec78d96ae9727d75cdafcaff0221ebf02772534b3a4989
+SHA512: e05542fbfa0e196940ab20774ac39303fdf5dfae8cf4db043dd99d6d2c665f5d088e686f899a7d7039dd1938ca0a8cbba7d1a8c080165a803e39911e0f919077
+Homepage: https://index.ros.org/p/robotiq_test_support/#jazzy
+Description: Shared gtest main for the test suites that create nodes.
+
+Package: ros-jazzy-robotiq-tsf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.09.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-robotiq-tsf
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 7605
+Depends: ros-jazzy-robotiq-tsf (= 1.3.0-109-ge14c29b-2026.11.19.09.12)
+Filename: ./ros-jazzy-robotiq-tsf-dbgsym_1.3.0-109-ge14c29b-2026.11.19.09.12_amd64.ddeb
+Size: 6461992
+MD5sum: 879f4bbe5504b0d4dfe1eb2a5e95d78b
+SHA1: 705a198820f090fd8719ca5853a918216c1f818c
+SHA256: de6c215146a9c142c61ee7ffff3892a5889211ee5765d6b9459ba74c4846bb81
+SHA512: 8b0362a81467f9cc36b7beabb3704a6e8c4eb64d4071906761a7f097342495f96e3efbb9e5e6a64f0b719b6b5db16a710882ddf553777a56ae5ca25020698e00
+Description: debug symbols for ros-jazzy-robotiq-tsf
+Build-Ids: 0b42aca2b2071fee8be52fdb1ee069baf32ea42b 36de5216ce2456578fd4f092c275e898a708856a 3f41918afca6030eff9cd4079774879f192220a2 555915e5d6128d836dc0943a977ed16f3cd294ff 6bf0f3ee93f60a25b1c843407c846a669a09a49c 7262f14f4075a692402787ec875c0938011d1230 872d89340a90f84fb8879aeb19bdad3644a0ad0b bc2a1b3998f3c7a5fed56f418b7dd88f69316f8b bc40e4494d4ac48d4af26143e46620c366a675b8 c5d7dca7e08887ca963475935eee4563ad5eb95d ccdce4093e34a52581e31695d1722a84a481e3c9 ed9580c6e348026cbebdbf8b8cf7f2b5bf477906 ee6aaa743a7887a3d09bf0d4d3fed87a3ecee8ff f94edebfd730911b285ce6363086b9cdc7cbfc49
+
+Package: ros-jazzy-robotiq-tsf
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.09.12
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 3487
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libserialport0, libstdc++6 (>= 13.1), ros-jazzy-fastcdr, libeigen3-dev, python3-numpy, ros-jazzy-ament-index-cpp, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-robotiq-description, ros-jazzy-robotiq-tactile-sdk-vendor, ros-jazzy-rosidl-default-generators, ros-jazzy-rosidl-default-runtime, ros-jazzy-rviz2, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs
+Filename: ./ros-jazzy-robotiq-tsf_1.3.0-109-ge14c29b-2026.11.19.09.12_amd64.deb
+Size: 397732
+MD5sum: d95e67905a85f28265a52b7b8574bc50
+SHA1: 83113357e317b235812963f34715207853994cdc
+SHA256: 18c6208c66d2e7b3b78fd2a86d828e84bb35a653249bc0164d3bb32e550066dc
+SHA512: fa4acbda5fbfbe507a548851f4418469704f3e8d6ac1fe26383a0fced9440e774daf001f1cb25f5154549d8127466e590d04b2f10e0dd2ba175b99151916e7b3
+Homepage: https://github.com/ets-laboratory/tactilesensors4
+Description: ROS 2 tactile sensing package for the Robotiq TSF-85 (Humble, Jazzy, Lyrical).
+

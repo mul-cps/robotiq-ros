@@ -1,0 +1,27 @@
+robotiq_grippers_sdk_vendor:
+  ubuntu:
+  - ros-jazzy-robotiq-grippers-sdk-vendor
+robotiq_msgs:
+  ubuntu:
+  - ros-jazzy-robotiq-msgs
+robotiq_tactile_sdk_vendor:
+  ubuntu:
+  - ros-jazzy-robotiq-tactile-sdk-vendor
+robotiq_test_support:
+  ubuntu:
+  - ros-jazzy-robotiq-test-support
+robotiq_driver:
+  ubuntu:
+  - ros-jazzy-robotiq-driver
+robotiq_controllers:
+  ubuntu:
+  - ros-jazzy-robotiq-controllers
+robotiq_hardware_tests:
+  ubuntu:
+  - ros-jazzy-robotiq-hardware-tests
+robotiq_description:
+  ubuntu:
+  - ros-jazzy-robotiq-description
+robotiq_tsf:
+  ubuntu:
+  - ros-jazzy-robotiq-tsf
