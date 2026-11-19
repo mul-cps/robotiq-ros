@@ -1,0 +1,272 @@
+Package: ros-humble-robotiq-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-controllers
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 3027
+Depends: ros-humble-robotiq-controllers (= 1.3.0-109-ge14c29b-2026.11.19.08.53)
+Filename: ./ros-humble-robotiq-controllers-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.53_amd64.ddeb
+Size: 2765884
+MD5sum: 8904a9f6dcdca9c2a3700b32cad9dec9
+SHA1: c944d94ede957626593b7cdc090353257d3c6c15
+SHA256: 5a2284d59e4f769569d20b4eef5919fbcb41c3ac05067f52c08601c2443e0b09
+SHA512: 066ae1a3dc20b9e9788f8a0961be50a8af34edd58339550ee5f36ac1542de871f6cd8900fbab19e1e4209ecfaeddaa0329360780e375ef2c81106c4ab0ede397
+Description: debug symbols for ros-humble-robotiq-controllers
+Build-Ids: ec115f7fe15f2b4e636c69471add141ea8ce15f1
+
+Package: ros-humble-robotiq-controllers
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.53
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 642
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-humble-controller-interface, ros-humble-gripper-controllers, ros-humble-hardware-interface, ros-humble-rclcpp-action, ros-humble-realtime-tools, ros-humble-robotiq-driver, ros-humble-robotiq-msgs, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-tinyxml2-vendor
+Filename: ./ros-humble-robotiq-controllers_1.3.0-109-ge14c29b-2026.11.19.08.53_amd64.deb
+Size: 169142
+MD5sum: 43600fe2ffce863402d10e3f51ba9ccd
+SHA1: b0165f759d6dd4b3db8a29f2b0f099dcc3cc0970
+SHA256: d3efa7660013223ad5ccac198fbafbd9c95d35dcd41eba0a9796c5e294c15491
+SHA512: b57fe2611546b7128006ebdfffb31d945b7abd07f7b0769fa61ac4757a077a030e6ebbd615e40f5aeba0d8553ba9664a80c7020f17a59402d7e4128a76136821
+Homepage: https://index.ros.org/p/robotiq_controllers/#humble
+Description: Controllers for the Robotiq gripper.
+
+Package: ros-humble-robotiq-description
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.57
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 20947
+Depends: ros-humble-gripper-controllers, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher-gui, ros-humble-launch, ros-humble-launch-ros, ros-humble-robot-state-publisher, ros-humble-robotiq-controllers, ros-humble-ros2-control, ros-humble-rviz2, ros-humble-urdf, ros-humble-xacro
+Filename: ./ros-humble-robotiq-description_1.3.0-109-ge14c29b-2026.11.19.08.57_amd64.deb
+Size: 4990560
+MD5sum: c93c7c5036cbaf66a5418a15396d5ba8
+SHA1: 2003fe6bcbc3a8e982c4d1b1dec62a633e52ce0a
+SHA256: 433f4ea1a37d95e18a6cf830df34f78caccc4d5ad25537c8dbaaff33685d8c9a
+SHA512: 062d36b19438f36242db9a5c0684996fec7538da01bf3b217ccefb9ffcf0876da55f305bc47a3912605cf459624f960ccd4b2193b7bb1f6dcea9cd589e7b0232
+Homepage: https://index.ros.org/p/robotiq_description/#humble
+Description: URDF and xacro description package for the Robotiq gripper.
+
+Package: ros-humble-robotiq-driver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-driver
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 813
+Depends: ros-humble-robotiq-driver (= 1.3.0-109-ge14c29b-2026.11.19.08.52)
+Filename: ./ros-humble-robotiq-driver-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.52_amd64.ddeb
+Size: 723740
+MD5sum: 0d99a85022b1ca9d5ccafed2a89fc8c8
+SHA1: f137b97fc07c53b0e775ac8c10ddd2705ef9a056
+SHA256: 11a02f316005c75d6a95549aa1e6eee014df3d7031624e014e71b7dff1dad237
+SHA512: 1c00d49a6516e7182ca157460a8a705bec2e90a071d1f053377b397e2af7368b2c6ec3e5613968b36a4e575d9f64f04a2cda7fadef924068c114f40eb269d946
+Description: debug symbols for ros-humble-robotiq-driver
+Build-Ids: e307119bfc1c328a0acb86999ef47d135c7c49ac
+
+Package: ros-humble-robotiq-driver
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.52
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 440
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-hardware-interface, ros-humble-lifecycle-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-robotiq-grippers-sdk-vendor
+Filename: ./ros-humble-robotiq-driver_1.3.0-109-ge14c29b-2026.11.19.08.52_amd64.deb
+Size: 127456
+MD5sum: 7c3194b138e42f2394e221311d407d60
+SHA1: 97e3b3d1205c2819ddd514f76f1f1bd8afe0743f
+SHA256: 43bb7c733ddcf838d864d8b798336fe99a527ed63cc4768e7a283858cda0d72d
+SHA512: 9f1b2456e1790f191a75dbc5717601552995a1a819d6c15f5d13f5ceb98fc82c710c2c6d768fbdc69d37d612f94cef9b3b0c99d2ef6cda273e8a7d1d4b41e0f9
+Homepage: https://index.ros.org/p/robotiq_driver/#humble
+Description: ROS2 driver package for the Robotiq gripper.
+
+Package: ros-humble-robotiq-grippers-sdk-vendor
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.32
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 595
+Filename: ./ros-humble-robotiq-grippers-sdk-vendor_1.3.0-109-ge14c29b-2026.11.19.08.32_amd64.deb
+Size: 116312
+MD5sum: 5c450821920d2bf67ea1d35bd8a207fb
+SHA1: ae7992f64cf49e8068e99dfaab7664f8c0618747
+SHA256: 17ab8ecd0b6475ff79ac271c58192548458cea1785f6d63e6fd61b9a87618509
+SHA512: 36b9c259113d5fc9bee4d757c765912e414d6c32c1c4d9d26d1684aa8da6df78c6619685eaa78cba3b5922d147e9ce873faad38e40ac101f42d045010cd9b315
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/grippers
+Description: Builds the Robotiq grippers C++ SDK (github.com/robotiq/robotiq-sdk, grippers/) at a pinned version, for the ROS packages that use it.
+
+Package: ros-humble-robotiq-hardware-tests-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-hardware-tests
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 200
+Depends: ros-humble-robotiq-hardware-tests (= 1.3.0-109-ge14c29b-2026.11.19.08.56)
+Filename: ./ros-humble-robotiq-hardware-tests-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.56_amd64.ddeb
+Size: 178778
+MD5sum: 9e39b84a1f4d5aacf31432fad61f101d
+SHA1: 3473e8256f8d6f8d0815a452dbfa688e37a45e28
+SHA256: ee7a89a2570f548b71fc9dc3c5a0b8310d9416d002052bfb01046a93932d89f8
+SHA512: 3255e8ac844fb6f8b71231d90bd974fcf3791ce407dc692dbdbfe9f18547c382df9c6f45c2940c279443cf108090c99ebe42f08c19639646cc07cc38effa762b
+Description: debug symbols for ros-humble-robotiq-hardware-tests
+Build-Ids: d95a6589d6d8c57ec3a51fbe7f1e8427e4c8e886
+
+Package: ros-humble-robotiq-hardware-tests
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.56
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 79
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-launch, ros-humble-launch-ros, ros-humble-robotiq-driver
+Filename: ./ros-humble-robotiq-hardware-tests_1.3.0-109-ge14c29b-2026.11.19.08.56_amd64.deb
+Size: 16310
+MD5sum: 24f7a93a55ee7eab7e85e207a0297826
+SHA1: 9675e7e6044b2dab98383614debbab1454d13c04
+SHA256: 6aa8c12748c0e515b4f9172e979c2f66d801d5e42f34da4452389cc75cb7ecf2
+SHA512: b0921eede3cd0ba656319bee7bb55a717001f92ec58fa49f1ed58cd16f57b47d83ace87cfdff87b814c48cb39b58fb22f83a14f764d4cc7118026e167d9759a1
+Homepage: https://index.ros.org/p/robotiq_hardware_tests/#humble
+Description: ROS2 driver for the Robotiq gripper.
+
+Package: ros-humble-robotiq-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-msgs
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 241
+Depends: ros-humble-robotiq-msgs (= 1.3.0-109-ge14c29b-2026.11.19.08.35)
+Filename: ./ros-humble-robotiq-msgs-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.35_amd64.ddeb
+Size: 139536
+MD5sum: 8f88ebf14e7dfc9f5db3b1e1986c2b7d
+SHA1: b7cf1a67f02d2197dcdee824e484e4dbbc407483
+SHA256: b9296c5a383dd108e18491b38db994f380f534b9a1958856999bb565f95c9007
+SHA512: 43f60884df79d547aebfe0fd55afefa8ce2a262d9055508e48c2e024f8ccf658f1219a94167f01d5a54ff34bfe6693d1e7660056398a146e4e2f702b9817563b
+Description: debug symbols for ros-humble-robotiq-msgs
+Build-Ids: 2c8dff4b682caf5fa2d25439a560ed9124dd4e21 4b75dc578eab9ab03600df3485cf2a4284c95371 5042baa194d8bc46f8375800c932af2a65f74513 55dbb9e476351c42a766d2f1cf7060d7120943c8 5e4ad992daa55002862afa0f0760db613b124627 650c92aea893678fa1394420e2edc673dd5859af 80aedc3acc0d7fdf367dace87429cc23deffa21b 974d0d8a9f947f0d7fdd348299de8e5899c1fdc8 b22afaa1fcffd85928770e715e9a8c89a30e100c b36fb57b78bc95b074eb2a00bd44d107501b02e9 e4d1ceef9b3f074e8d2f0325f9a3c2d44a0861f1 e4dec88c484f71afaded6c83ca1f62092074cbb9
+
+Package: ros-humble-robotiq-msgs
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.35
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 474
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-robotiq-msgs_1.3.0-109-ge14c29b-2026.11.19.08.35_amd64.deb
+Size: 42862
+MD5sum: 8865d23f85ad8c8b93d64680a20ddb5c
+SHA1: 051a9a4d97642e7fb2456323db1ad797cd5824a3
+SHA256: 29cad7060944b4d8940d35ffdbd7725df3390e79145aec87aa01f24967ffe968
+SHA512: abbc1d47612210fafdefd803e37e2da62d9dc5d2ba6f375e718e8c785055c69dc43b13fb2e32e38d3611aa4843123cc8506a2e6e6ee82cc6ea0b56777e30db7f
+Homepage: https://index.ros.org/p/robotiq_msgs/#humble
+Description: Messages for the Robotiq gripper driver and controllers.
+
+Package: ros-humble-robotiq-tactile-sdk-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-tactile-sdk-vendor
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 143
+Depends: ros-humble-robotiq-tactile-sdk-vendor (= 1.3.0-109-ge14c29b-2026.11.19.08.47)
+Filename: ./ros-humble-robotiq-tactile-sdk-vendor-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.47_amd64.ddeb
+Size: 125790
+MD5sum: d565ae0bce646d2c20a5eb60bfa6bb92
+SHA1: 22bbfc7d20c603f078f89ff61f7e73a9a8b5ca10
+SHA256: 57613b0491c9f00180a73d23ec4ca1fc8aa360370c44f707ffce3373791a56ef
+SHA512: cb314cdadef10d3d4bb9f7dc51e3400cf2b2e3471a671a5e308c321021f279cda4322acbabe5e56805c0e8cf8afca605f390492f5388c6571ea43700d335ce01
+Description: debug symbols for ros-humble-robotiq-tactile-sdk-vendor
+Build-Ids: b4f1bfe618fb49d579e9b15c6bd020cff21d2c20
+
+Package: ros-humble-robotiq-tactile-sdk-vendor
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.47
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 127
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libserialport0, libstdc++6 (>= 6), libserialport-dev
+Filename: ./ros-humble-robotiq-tactile-sdk-vendor_1.3.0-109-ge14c29b-2026.11.19.08.47_amd64.deb
+Size: 26264
+MD5sum: 4995f13af0ec2595d3b03f33f347ba1f
+SHA1: 72e19421c854c00583df89b0b4ab74a21d914596
+SHA256: 6a50958789dac90d9d8102df92e86312c0df34df613b4f6b030ac73bbe154463
+SHA512: 9530941c3c5a985419e75131401fb56ee0a77bcb6ea45597aef2df42527623d61b2a8566648f1484239daf20b98441a24f4a0b949cd0317e2772a782111be313
+Homepage: https://github.com/robotiq/robotiq-sdk/tree/main/tsf
+Description: Builds the Robotiq tactile sensors C++ SDK (github.com/robotiq/robotiq-sdk, tsf/) at a pinned release, for the ROS packages that use it.
+
+Package: ros-humble-robotiq-test-support
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.50
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 53
+Depends: ros-humble-ament-cmake-gtest, ros-humble-rclcpp, ros-humble-rcpputils
+Filename: ./ros-humble-robotiq-test-support_1.3.0-109-ge14c29b-2026.11.19.08.50_amd64.deb
+Size: 8492
+MD5sum: 2495ee654aaa24fe8e660dbd81fb9127
+SHA1: 5149bff528a4adcc9041fe9caa579a792b00f725
+SHA256: 72cbec96e766b0cb61b5f3fc2f90f624db7c54d05639cc37d922b5c49fcb2170
+SHA512: ba0d2aae6732e7719fda21a974ed684097600102c3c59fdeb45d00128cb649b2dfc1cba4c1be6dd4e04c00deb7c0c37852b6e6cfccd761990d96fdc0ae835be8
+Homepage: https://index.ros.org/p/robotiq_test_support/#humble
+Description: Shared gtest main for the test suites that create nodes.
+
+Package: ros-humble-robotiq-tsf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-robotiq-tsf
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 6849
+Depends: ros-humble-robotiq-tsf (= 1.3.0-109-ge14c29b-2026.11.19.08.59)
+Filename: ./ros-humble-robotiq-tsf-dbgsym_1.3.0-109-ge14c29b-2026.11.19.08.59_amd64.ddeb
+Size: 5694158
+MD5sum: 86b58726e8e15d07c3f29217219557cb
+SHA1: 5f19daa49546d1b8d87b6a77f50c912a5e49cd09
+SHA256: 7fd4d11576f510fc449ab4dd830e61123fe9c6e2c5f438d4b0412804c271071c
+SHA512: 54faf2da9b833e8b654a29baa28d2646551f72944c35586c4964182c1c9a5f3732d30e06188353afdadbb43d5587174cb85dd47335ac7bd382d61058bd400438
+Description: debug symbols for ros-humble-robotiq-tsf
+Build-Ids: 22088018823c07857ed021b5fc603c7b67cb3129 3e03a3a1fea652b92b7e7acb1ce8c86ab6efec91 44faa8cffbb93fe2fb10cdc9d3cfb620457c5cec 55ad0e8ec86c725e642e08f807e8713ce68bd90e 5cdb09d3d15fd6cf9f994e5b269e53ddd1c3ef93 5ed36e6cdbee88b58f2bf99f3944a4ab2fccf6be 6a5d6a28e10d0be79d0dc70eeb59f0416b9a55c6 7ff805c542dc83cb2c2769f40b64a4f84ca994e3 90aafe376e8228da6ab0de827c0162d48460c0fd 92d7423ebeaac2084c50cf570ae3a40d2ff5db34 97770a84ea19dc283c550798a0109abf04b36330 9e8be6bb82d28bde1f216ad0426c6673a776befd a105de15fec592ea03d176ae847790da11951ba9 c16130850c9b14c67c013da75c9e7faf660ab2f3 cb897399cf39be7dd92ea219a1bb0187e3770d49
+
+Package: ros-humble-robotiq-tsf
+Architecture: amd64
+Version: 1.3.0-109-ge14c29b-2026.11.19.08.59
+Priority: optional
+Section: misc
+Maintainer: "Robotiq" <ros@robotiq.com>
+Installed-Size: 2706
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libserialport0, libstdc++6 (>= 11), ros-humble-fastcdr, libeigen3-dev, python3-numpy, ros-humble-ament-index-cpp, ros-humble-geometry-msgs, ros-humble-launch, ros-humble-launch-ros, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-robotiq-description, ros-humble-robotiq-tactile-sdk-vendor, ros-humble-rosidl-default-generators, ros-humble-rosidl-default-runtime, ros-humble-rviz2, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs
+Filename: ./ros-humble-robotiq-tsf_1.3.0-109-ge14c29b-2026.11.19.08.59_amd64.deb
+Size: 322482
+MD5sum: d835e4eec4436f53addaa86b750da119
+SHA1: b1974a72d8a45fff5d3ba3dbe0eee0cfdfb74bea
+SHA256: 2175881f8c083135c150485fb64157f170217f1b90ff89256d4c1d39a2d22e5b
+SHA512: d72fcdc9488f48876604fd2e09d0fe2021c0289fc6ce41e0b8c11239cded069fbf8649fac3bfe039eea19b4791fdfaa6d4e53524b4cba8d131b9cf736fe8c9ad
+Homepage: https://github.com/ets-laboratory/tactilesensors4
+Description: ROS 2 tactile sensing package for the Robotiq TSF-85 (Humble, Jazzy, Lyrical).
+

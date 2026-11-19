@@ -1,0 +1,27 @@
+robotiq_grippers_sdk_vendor:
+  ubuntu:
+  - ros-humble-robotiq-grippers-sdk-vendor
+robotiq_msgs:
+  ubuntu:
+  - ros-humble-robotiq-msgs
+robotiq_tactile_sdk_vendor:
+  ubuntu:
+  - ros-humble-robotiq-tactile-sdk-vendor
+robotiq_test_support:
+  ubuntu:
+  - ros-humble-robotiq-test-support
+robotiq_driver:
+  ubuntu:
+  - ros-humble-robotiq-driver
+robotiq_controllers:
+  ubuntu:
+  - ros-humble-robotiq-controllers
+robotiq_hardware_tests:
+  ubuntu:
+  - ros-humble-robotiq-hardware-tests
+robotiq_description:
+  ubuntu:
+  - ros-humble-robotiq-description
+robotiq_tsf:
+  ubuntu:
+  - ros-humble-robotiq-tsf
