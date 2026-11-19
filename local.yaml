@@ -1,0 +1,27 @@
+robotiq_grippers_sdk_vendor:
+  ubuntu:
+  - ros-lyrical-robotiq-grippers-sdk-vendor
+robotiq_msgs:
+  ubuntu:
+  - ros-lyrical-robotiq-msgs
+robotiq_tactile_sdk_vendor:
+  ubuntu:
+  - ros-lyrical-robotiq-tactile-sdk-vendor
+robotiq_test_support:
+  ubuntu:
+  - ros-lyrical-robotiq-test-support
+robotiq_driver:
+  ubuntu:
+  - ros-lyrical-robotiq-driver
+robotiq_controllers:
+  ubuntu:
+  - ros-lyrical-robotiq-controllers
+robotiq_hardware_tests:
+  ubuntu:
+  - ros-lyrical-robotiq-hardware-tests
+robotiq_description:
+  ubuntu:
+  - ros-lyrical-robotiq-description
+robotiq_tsf:
+  ubuntu:
+  - ros-lyrical-robotiq-tsf
